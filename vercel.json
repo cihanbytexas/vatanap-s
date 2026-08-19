@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/product.js": {
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/product",
+      "dest": "/api/product.js"
+    }
+  ]
+}
